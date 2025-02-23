@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "insanitymod:item/str1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "insanitymod:mode": 0.0,
+        "insanitymod:is_active": 0.0
+      },
+      "model": "insanitymod:item/str1"
+    },
+    {
+      "predicate": {
+        "insanitymod:mode": 0.0,
+        "insanitymod:is_active": 1.0
+      },
+      "model": "insanitymod:item/str2"
+    },
+
+    {
+      "predicate": {
+        "insanitymod:mode": 1.0,
+        "insanitymod:is_active": 0.0
+      },
+      "model": "insanitymod:item/inv1"
+    },
+    {
+      "predicate": {
+        "insanitymod:mode": 1.0,
+        "insanitymod:is_active": 1.0
+      },
+      "model": "insanitymod:item/inv2"
+    },
+
+    {
+      "predicate": {
+        "insanitymod:mode": 2.0,
+        "insanitymod:is_active": 0.0
+      },
+      "model": "insanitymod:item/spe1"
+    },
+    {
+      "predicate": {
+        "insanitymod:mode": 2.0,
+        "insanitymod:is_active": 1.0
+      },
+      "model": "insanitymod:item/spe2"
+    }
+  ]
+}
